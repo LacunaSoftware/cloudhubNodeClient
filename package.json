@@ -5,7 +5,7 @@
   },
   "name": "cloudhub-client",
   "version": "1.0.0",
-  "description": "A client library for Lacuna's CloudHub API for Node.js",
+  "description": "A client library for Lacuna's CloudHub API in Node.js",
   "main": "./dist/index.js",
   "devDependencies": {},
   "scripts": {
