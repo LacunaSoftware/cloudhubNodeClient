@@ -11,12 +11,12 @@ Or informing on your project's `package.json` file:
     {
       ...
       "dependencies": {
-        "restpki-client": "2.3.1"
+        "cloudhub-client": "1.0.0"
       }
     }
 
 Samples
 -------
 
-Please visit the [REST PKI samples repository](https://github.com/LacunaSoftware/RestPkiSamples/tree/master/NodeJS)
+Please visit the [PKI Suite Samples repository](https://github.com/LacunaSoftware/PkiSuiteSamples/tree/master/nodejs)
 for examples on how to use this library.
