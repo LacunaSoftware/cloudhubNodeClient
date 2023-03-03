@@ -1,6 +1,6 @@
 Cloudhub client lib for Node.js
 ===============================
-This library contains classes that encapsulate the calls to the REST PKI API.
+This library contains classes that encapsulate the calls to the Cloudhub API.
 
 The recommend way to install **Cloudhub client library** is through [npm](https://www.npmjs.com/):
 
