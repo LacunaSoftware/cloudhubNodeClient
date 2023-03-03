@@ -15,6 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RestClient = void 0;
 const axios_1 = __importDefault(require("axios"));
 class RestClient {
+    getClient() {
+        return this.client != null ? this.client : this.initClient();
+    }
     constructor(baseURL, apiKey) {
         this.client = null;
         this.errorHandling = (error) => {
@@ -34,9 +37,6 @@ class RestClient {
         this.baseURL = baseURL;
         this.apiKey = apiKey;
         this.client = this.getClient();
-    }
-    getClient() {
-        return this.client != null ? this.client : this.initClient();
     }
     initClient() {
         return axios_1.default.create({
