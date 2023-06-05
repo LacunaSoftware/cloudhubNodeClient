@@ -11,7 +11,7 @@ Or informing on your project's `package.json` file:
     {
       ...
       "dependencies": {
-        "cloudhub-client": "1.0.0"
+        "cloudhub-client": "1.0.1"
       }
     }
 

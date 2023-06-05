@@ -2,6 +2,7 @@ export interface SessionCreateRequest {
     identifier?: string;
     redirectUri?: string;
     type?: TrustServiceSessionTypes;
+    lifetimeInSeconds: number;
 }
 export declare enum TrustServiceSessionTypes {
     SingleSignature = 1,
